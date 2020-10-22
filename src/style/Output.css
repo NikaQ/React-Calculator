@@ -1,0 +1,8 @@
+.Output{
+    width: 180px;
+    text-align: right;
+}
+
+.Output p {
+    font-size: 20px;
+}

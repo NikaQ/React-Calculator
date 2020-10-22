@@ -1,14 +1,12 @@
 import React from 'react'
 
-const Operators = () => {
+const Operators = ({handleOperatorClick}) => {
+    const operators = ['/', '*', '-', '+', '=']
+    
     return (
-        <>
-          <p className="Block">/</p>
-          <p className="Block">*</p>  
-          <p className="Block">-</p>  
-          <p className="Block">+</p>  
-          <p className="Block">=</p>  
-        </>
+      <div className="Operators">
+        {operators.map(operator=><p key={operator} onClick={()=>handleOperatorClick(operator)} className="Block">{operator}</p>)}
+      </div>
     )
 }
 
