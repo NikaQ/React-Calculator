@@ -1,0 +1,43 @@
+
+.App {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.FlexContainer{
+  display: flex; 
+  flex-direction: column;
+}
+
+.ExtraButtons {
+  display: flex;
+  flex-direction: row;
+}
+
+.Numbers {
+  display: flex;
+  flex-direction: column;
+}
+
+.Row{
+  display: flex;
+  flex-direction: row;
+}
+
+.RowReverse{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.Block {
+  width: 50px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0;
+  padding: 16px 0;
+}
